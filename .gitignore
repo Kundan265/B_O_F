@@ -1,0 +1,89 @@
+# Bodies of Flora - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Secrets and credentials
+.env.*
+*.pem
+*.key
+credentials.json
+secrets/
+config.local.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Output directories
+outputs/
+/content/
+
+# Model weights and caches
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.bin
+.cache/
+huggingface/
+*.u2net/
+
+# Hunyuan3D-2 (cloned during setup)
+Hunyuan3D-2/
+
+# Generated files
+*.glb
+*.obj
+*.stl
+*.png
+*.jpg
+*.jpeg
+
+# Keep sample data
+!data/plant_texts/*.txt
+
+# Logs
+*.log
+logs/
+
+# Original notebook (cleaned version is in notebooks/)
+Robust.ipynb
